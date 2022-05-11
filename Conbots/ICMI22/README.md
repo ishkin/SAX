@@ -1,14 +1,13 @@
 # XGboost classifier for engagement in motor learning
 
 
+## The code
+The code contains two functions: predict_from_existing_model, and train_new_model
 
-The code contains two functions:
+### The predict_from_existing_model function
+The functions upload the pre-trained XGboost classifer and use it to predict the given test set.
 
-predict_from_existing_model
-
-  This functions upload the pre-trained XGboost classifer and use it to predict the given test set.
-
-  Function input
+Input
   1.  pre-trained model 
   2.  numpy matrix of the test data. The rows of the matrix are the samples while the columns represents the sensors featers
         The last column is the lable - the level of engadgment
@@ -20,15 +19,22 @@ IMU_B_1_jerk_rmssd , GYR_B_2_jerk_median , imu_b_jerk_magnitude_kurt , GYR_B_1_k
 
 
 
-2. train_new_model
+### The train_new_model function
+....
 
 
 
-The last column in the file is the target column
     
-All entries should be numbers
-    
-
+## Software Requirements
+> numpy==1.21.2 \
+> scipy==1.7.3\
+> scikit-learn==1.0.1 \
+> pandas==1.3.3 \
+> lime==0.2.0.1
+​
+​
+## How to cite
+Please consider citing our paper if you use code or ideas from this project:
 
 
 

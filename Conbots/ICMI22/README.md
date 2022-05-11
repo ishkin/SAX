@@ -1,4 +1,4 @@
-# XGboost classifier for mental 
+# XGboost classifier for engagement in motor learning
 
 
 

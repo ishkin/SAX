@@ -40,10 +40,11 @@ def train_new_model(data_file = 'data_generated.csv', seed =7, test_percentage =
     F1 = f1_score(y_test, predictions)
     print("Accuracy: %.2f%%" % (accuracy * 100.0))
     print("F1: %.2f%%" % (F1 * 100.0))
+    return predictions
 
 
 if __name__ == "__main__":
-    print("Running")
+    print("Do not forget to uncomment one of the below lines")
     # train_new_model()             # Uncomment if you want to train a new model on your dataset
     # predict_from_existing_model() # Uncomment if you want to use our pre-trained model for your prediction
 

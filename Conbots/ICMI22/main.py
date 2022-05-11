@@ -14,7 +14,7 @@ def predict_from_existing_model(model_name="pre_trained_XGboost_model.json", tes
     return predictions
 
 
-def train_new_model(data_file = 'con_data.csv', seed =7, test_percentage =0.2):
+def train_new_model(data_file = 'data_generated.csv', seed =7, test_percentage =0.2):
     # The last column in the file is the target column
     #  All entries should be numbers
     dataset = loadtxt(data_file, delimiter=",", skiprows=True)

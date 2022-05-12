@@ -1,9 +1,9 @@
 # XGboost classifier for engagement in motor learning
 
 ## Paper abstract
-``
+`
 Teaching motor skills such as playing music, handwriting, and driving, can greatly benefit from recently developed technologies such as wearable gloves for haptic feedback or robotic sensorimotor exoskeletons for the mediation of effective human-human and robot-human physical interactions. At the heart of such teacher-learner interactions still stands the critical role of the ongoing feedback a teacher can get about the student’s engagement status during the learning and practice sessions. Particularly for motor learning, such feedback is key in guiding the teacher on how to control and adapt the intensity of the physical interaction to best adapt it to the gradually evolving performance of the learner. In this paper, our focus is on the development of a near real-time machine-learning model that can acquire its input from a set of readily available noninvasive, privacy-preserving, body-worn sensors, for the benefit of tracking the engagement of the learner in the motor task. Such instrumentation is a first step toward the development of an exoskeleton control system that will use such feedback for personally adapted facilitation of motor learning sessions. We used the specific case of violin playing as a target domain in which data was empirically acquired, the latent construct of engagement in motor learning was carefully developed for data labeling, and a machine-learning model was rigorously trained and validated.
-``
+`
 
 
 

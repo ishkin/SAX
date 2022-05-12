@@ -29,10 +29,11 @@ Input:
 
     
 ## Software Requirements
-> numpy
-> sklearn
-> xgboost
-
+```
+numpy
+sklearn
+xgboost
+```
 
 
 ## How to cite

@@ -20,19 +20,21 @@ IMU_B_1_jerk_rmssd , GYR_B_2_jerk_median , imu_b_jerk_magnitude_kurt , GYR_B_1_k
 
 
 ### The train_new_model function
-....
+This is the complete pipline process
+Input:
+  1. csv data file
+  2. test set percentage (between 0 and 1)
 
 
 
     
 ## Software Requirements
-> numpy==1.21.2 \
-> scipy==1.7.3\
-> scikit-learn==1.0.1 \
-> pandas==1.3.3 \
-> lime==0.2.0.1
-​
-​
+> numpy
+> sklearn
+> xgboost
+
+
+
 ## How to cite
 Please consider citing our paper if you use code or ideas from this project:
 

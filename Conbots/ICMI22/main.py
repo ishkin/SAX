@@ -5,7 +5,6 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import f1_score
 
 
-# The number of features in the test set is 259
 def predict_from_existing_model(model_name="pre_trained_XGboost_model.json", test_set=[[]]):
     model = XGBClassifier()
     model.load_model(model_name)
